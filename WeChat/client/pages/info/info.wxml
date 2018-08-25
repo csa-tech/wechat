@@ -1,0 +1,10 @@
+<!--pages/info/info.wxml-->
+<view class="container">
+  <view class="item">
+    <image src="../../images/info/ucsb.png"  mode="aspectFit" >
+    </image> 
+     <image src="../../images/info/csa.png" mode="aspectFit">
+    </image> 
+  </view>
+  <text>{{text}}</text>
+</view>

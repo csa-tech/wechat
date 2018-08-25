@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/welcome/food/food",
+    "pages/welcome/apartments/apartments",
+    "pages/welcome/ride_share/ride_share",
+    "pages/welcome/second_hand/second_hand",
+    "pages/info/info",
+    "pages/setup/setup"
+  ],
+  "tabBar":{
+      "borderStyle":"dark",
+      "position":"bottom",
+      "list":[
+        {
+          "pagePath":"pages/welcome/welcome",
+          "text":"首页",
+          "iconPath":"images/tab/home.png",
+          "seletedIconPath":"images/tab/home1.png"
+        },
+        {
+          "pagePath": "pages/setup/setup",
+          "text": "设置",
+          "iconPath": "images/tab/setting.png",
+          "seletedIconPath": "images/tab/setting1.png"
+        },
+        {
+          "pagePath": "pages/info/info",
+          "text": "我们",
+          "iconPath": "images/tab/team.png",
+          "seletedIconPath": "images/tab/team1.png"
+        }
+      ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#85E0E5",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle": "white"
+  }
+}

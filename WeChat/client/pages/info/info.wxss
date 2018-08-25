@@ -1,0 +1,15 @@
+/* pages/info/info.wxss */
+.container{
+  background: #fff;
+  display: flex;
+  align-content: flex-start
+}
+
+.item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  background: #fff
+  }

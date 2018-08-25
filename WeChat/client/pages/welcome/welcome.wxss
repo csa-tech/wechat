@@ -1,0 +1,15 @@
+/* pages/welcome/welcome.wxss */
+.container{background: #85E0E5;}
+.btn-sudoku{
+  display: flex;
+  justify-content: center  space-between flex-start;
+  flex-wrap: wrap;
+  background: #fff}
+.btn-sudoku .nav-item{
+  width: 50%;
+  text-align: center}
+.btn-sudoku .icon{
+  width:100%;
+  height: 130rpx;
+  padding: 20% 15%
+  }

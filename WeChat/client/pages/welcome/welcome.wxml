@@ -1,0 +1,21 @@
+<!--welcome.wxml-->
+<view class="container">
+  <view class="btn-sudoku">
+    <navigator url="food/food" class="nav-item">
+      <image src="../../images/welcome/外卖.png" mode="aspectFit" class="icon"/>
+      外卖
+    </navigator>
+    <navigator url="second_hand/second_hand" class="nav-item">
+      <image src="../../images/welcome/二手.png" mode="aspectFit" class="icon"/>
+      二手
+    </navigator>
+    <navigator url="apartments/apartments" class="nav-item">
+      <image src="../../images/welcome/租房.png" mode="aspectFit" class="icon"/>
+      租房
+    </navigator>
+    <navigator url="ride_share/ride_share" class="nav-item">
+      <image src="../../images/welcome/拼车.png" mode="aspectFit" class="icon"/>
+      拼车
+    </navigator>
+   </view> 
+</view>
