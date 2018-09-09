@@ -1,15 +1,15 @@
 /* pages/welcome/welcome.wxss */
-.container{background: #85E0E5;}
+.container{background: #fff;}
 .btn-sudoku{
-  display: flex;
-  justify-content: center  space-between flex-start;
+  display:flex;
+  justify-content: center;
   flex-wrap: wrap;
   background: #fff}
 .btn-sudoku .nav-item{
-  width: 50%;
-  text-align: center}
+  width: 40%;
+  text-align: center;
+  padding: 60rpx 30rpx}
 .btn-sudoku .icon{
   width:100%;
   height: 130rpx;
-  padding: 20% 15%
   }
