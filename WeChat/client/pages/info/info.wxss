@@ -1,15 +1,28 @@
 /* pages/info/info.wxss */
 .container{
-  background: #fff;
+  background: #C12E38;
   display: flex;
   align-content: flex-start
 }
 
 .item{
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: flex-start;
   align-items: flex-start;
-  background: #fff
+  background: #C12E38
   }
+
+page {
+  background :#C12E38;
+  color: #fff;
+  width: 100%;
+  height: 100%
+}
+
+.style{
+  font-size: 20px;
+  font-family: STSong;
+  font-weight: bold;
+  font-style: italic;
+}

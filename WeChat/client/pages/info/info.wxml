@@ -1,10 +1,13 @@
 <!--pages/info/info.wxml-->
 <view class="container">
   <view class="item">
-    <image src="../../images/info/ucsb.png"  mode="aspectFit" >
-    </image> 
-     <image src="../../images/info/csa.png" mode="aspectFit">
+    <image src="../../images/info/diy.png"  mode="widthFix" >
     </image> 
   </view>
-  <text>{{text}}</text>
+  <view class="style">
+    <text>{{text}}</text>
+  </view>
+  <navigator url="out/out">
+      点击详情
+    </navigator>
 </view>
